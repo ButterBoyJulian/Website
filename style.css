@@ -1,6 +1,7 @@
 .link{
   color: slategray;
-  text-align: middle;
+  text-align: center;
+  border: 3px solid green;
 }
 
 .error{
