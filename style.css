@@ -1,5 +1,10 @@
-a{
-  color: white;
-  background-color: slategray;
+.link{
+  color: slategray;
   text-align: middle;
+}
+
+.error{
+  color: red;
+  font-style: italic;
+  text-transform: uppercase;
 }
