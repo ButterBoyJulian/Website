@@ -3,6 +3,7 @@
   color: slategray;
   text-align: center;
   border: 3px solid green;
+  text-transform: uppercase;
 }
 
 .center{
@@ -12,5 +13,4 @@
 .error{
   color: red;
   font-style: italic;
-  text-transform: uppercase;
 }
