@@ -1,10 +1,11 @@
 .link{
-  border: 3px solid green;
-  font-size: 135%;
-  font-weight: bold;
+  width: 60%;
   padding: 10px;
-  text-align: center;
+  font-size: 135%;
   color: slategray;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid green;
   text-transform: uppercase;
 }
 
