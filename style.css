@@ -29,8 +29,21 @@
 	width: 100%;
 	height: 500px;
 	background-image:url(http://saas2.oxy.host/wp-content/uploads/sites/8/2017/10/Background@2x.png);
-	background-size: 100% 100%;
+	background-size: cover;
 	overflow: hidden;
+}
+
+.crop-height {
+	max-height: 320px;
+	overflow: hidden;
+}
+.flip {
+	-webkit-transform: rotate(180deg);
+	-moz-transform:    rotate(180deg);
+	-ms-transform:     rotate(180deg);
+	-o-transform:      rotate(180deg);
+	transform:         rotate(180deg);
+	zoom: 1;
 }
 
 .navbar-fixed{
