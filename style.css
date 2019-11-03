@@ -35,7 +35,7 @@
 
 .crop-height {
 	max-height: 480px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 .flip {
 	-webkit-transform: rotate(180deg);
