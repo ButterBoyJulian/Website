@@ -2,6 +2,16 @@
 <html lang="en-US">
   <head>
     
+    <style>
+    div.sticky {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 5px;
+      padding: 5px;
+      background-color: #cae8ca;
+      border: 2px solid #4CAF50;
+    }
+    </style>
     <link rel="stylesheet" href="style.css">
     <title>Julian Network</title>
     
@@ -11,7 +21,9 @@
     <script src="scroll.js"></script>
     <div id="banner">
         <div>
-          <h1 id="header" class="ct-headline saas-heading-one">Welcome...</h1>
+          
+          <div class="sticky">I am sticky!</div>
+          
         </div>
       </div>
 
@@ -23,7 +35,7 @@
           <li><a href="about.html">About</a></li>
         </ul>
       </nav>
-    <div id='body_div'>
+    <div id='body_div' style="padding-bottom:2000px">
         <p style='margin: 0; padding-top: 50px;'>and more stuff to continue scrolling here</p>
     </div>
     
