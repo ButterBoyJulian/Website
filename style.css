@@ -34,7 +34,7 @@
 }
 
 .crop-height {
-	max-height: 320px;
+	max-height: 480px;
 	overflow: hidden;
 }
 .flip {
