@@ -25,6 +25,13 @@
 	color: white;
 	text-align: center;
 }
+#banner{
+	width: 100%;
+	height: 500px;
+	background-image:url(http://saas2.oxy.host/wp-content/uploads/sites/8/2017/10/Background@2x.png);
+	background-size: 100% 100%;
+	overflow: hidden;
+}
 
 .navbar-fixed{
 	top: 0;
@@ -32,22 +39,6 @@
 	position: fixed;
 	width: 100%;
 }
-
-#body_div{
-	top: 0;
-	position: relative;
-	height: 200px;
-	background-color: green;
-}
-
-#banner{
-	width: 100%;
-	height: 500px;
-	background-image:url(http://saas2.oxy.host/wp-content/uploads/sites/8/2017/10/Background@2x.png);
-	background-size: cover;
-	overflow: hidden;
-}
-
 #nav_bar{
 	border: 0;
 	background-color: #202020;
@@ -55,16 +46,13 @@
 	margin-bottom: 0;
 	height: 30px;
 }
-
 .nav_links{
 	margin: 0;
 }
-
 .nav_links li{
 	display: inline-block;
 	margin-top: 4px;
 }
-
 .nav_links li a{
 	padding: 0 15.5px;
 	color: #3498db;
