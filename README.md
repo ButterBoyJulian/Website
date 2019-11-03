@@ -1,2 +1,2 @@
 # Website
-A Website for the Julian's Network
+A Website for Julian's Network
