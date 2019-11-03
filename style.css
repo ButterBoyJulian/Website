@@ -26,11 +26,11 @@
 	text-align: center;
 }
 #banner{
-	width: 100%;
-	height: 500px;
+	/*width: 100%;
+	height: 500px;*/
 	background-image:url(http://saas2.oxy.host/wp-content/uploads/sites/8/2017/10/Background@2x.png);
-	background-size: cover;
-	overflow: hidden;
+	/*background-size: cover;
+	overflow: hidden;*/
 }
 
 .crop-height {
