@@ -36,11 +36,11 @@ div.highlight-green{
 }
 
 /* Fonts */
-p.times-new-roman{
+.times-new-roman{
   font-family: "Times New Roman", Times, serif;
 }
 
-p.arial{
+.arial{
   font-family: Arial, Helvetica, sans-serif;
 }
 
