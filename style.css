@@ -37,12 +37,22 @@ div.highlight-green{
 
 /* All Pages */
 .white-box{
-  background-color: #ffffff;
-  padding: 10px;
-  margin: 20px;
+	background-color: #ffffff;
+	padding: 10px;
+	margin: 20px;
+}
+.footer{
+	background-color: #ffffff;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	padding: 40px;
+}
+.site-footer{
+	background-color: #222222;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	padding: 20px;
 }
 body{
-  background-color: #efefef;
+	background-color: #efefef;
 }
 
 /* Fonts */
