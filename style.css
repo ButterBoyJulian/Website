@@ -9,7 +9,6 @@
 	border: 3px solid green;
 	text-transform: uppercase;
 }
-
 .center{
 	text-align: center;
 }
@@ -17,6 +16,18 @@
 .error{
 	color: red;
 	font-style: italic;
+}
+
+div.uppercase{
+	text-transform: uppercase;
+}
+div.lowercase{
+	text-transform: lowercase;
+}
+
+p.thick{
+	font-weight: bold;
+	font-size: large;
 }
 
 /* Homepage */ 
