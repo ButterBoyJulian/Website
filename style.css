@@ -35,6 +35,15 @@ div.highlight-green{
 	border: 2px solid #4CAF50;
 }
 
+/* Fonts */
+p.times-new-roman{
+  font-family: "Times New Roman", Times, serif;
+}
+
+p.arial{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Homepage */ 
 #header{
 	color: white;
