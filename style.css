@@ -12,6 +12,9 @@
 .center{
 	text-align: center;
 }
+.zero-margin{
+	margin: 0px;
+}
 
 .error{
 	color: red;
@@ -55,7 +58,6 @@ div.highlight-green{
 }
 body{
 	background-color: #efefef;
-	margin: 0px;
 }
 
 /* Fonts */
