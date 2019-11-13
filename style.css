@@ -32,7 +32,7 @@ p.thick{
 	font-weight: bold;
 	font-size: large;
 }
-div.stack p{
+.stack{
     display: inline-block;
     vertical-align: top;
 }
