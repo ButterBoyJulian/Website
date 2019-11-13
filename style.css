@@ -32,24 +32,10 @@ p.thick{
 	font-weight: bold;
 	font-size: large;
 }
-
 .stack{
 	display: inline-block;
 	vertical-align: top;
 	margin: 0px;
-}
-.stack-thick{
-	display: inline-block;
-	vertical-align: top;
-	margin: 0px;
-	font-weight: bold;
-	font-size: large;
-}
-.stack-underline{
-	display: inline-block;
-	vertical-align: top;
-	margin: 0px;
-	text-decoration: underline;
 }
 
 p.overline{
