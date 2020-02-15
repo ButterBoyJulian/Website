@@ -51,10 +51,9 @@
       </div>
     </div>
 
-    <script>
-    var { FOOTER, COPYRIGHT } = require('./config.json');
-    document.getElementById("copyright").innerHTML = "©" + COPYRIGHT;
-    document.getElementById("footer").innerHTML = FOOTER;
+    <script src="./config.js">
+    document.getElementById("copyright").innerHTML = "©" + config.COPYRIGHT;
+    document.getElementById("footer").innerHTML = config.FOOTER;
     </script>
     
   </body>
