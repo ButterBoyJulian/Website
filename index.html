@@ -42,14 +42,20 @@
     
     
     <div class="footer">
-      <p>Hope you Enjoyed the Website!</p>
+      <p id="footer"></p>
     </div>
     
     <div class="site-footer">
       <div class="center">
-        <p>©Julian Network 2020</p>
+        <p id="copyright"></p>
       </div>
     </div>
+
+    <script>
+    const { FOOTER, COPYRIGHT } = require('./config.json');
+    document.getElementById("copyright").innerHTML = "©" + COPYRIGHT;
+    document.getElementById("footer").innerHTML = FOOTER;
+    </script>
     
   </body>
 </html>
