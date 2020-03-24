@@ -1,6 +1,4 @@
 # Website
 A Website for Julian's Network
 
-~~~
-About: Orage
-~~~
+## To Do List
