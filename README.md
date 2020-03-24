@@ -11,3 +11,4 @@ A Website for Julian's Network
   Survival: Give Claim Blocks
   Prisions: Give Money
   ~~~
+- Uncapitalize the "I" in the folder Images
