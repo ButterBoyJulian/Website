@@ -13,5 +13,14 @@
     "mysql": "^2.17.1",
     "socket.io": "^2.3.0",
     "p5": "^0.9.0"
-  }
+  },
+  "engines": {
+    "node": "10.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "julian",
+    "network"
+  ]
 }
