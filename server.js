@@ -8,7 +8,7 @@ var app = express();
 
 app.use(express.static('node_modules/'));
 // p5js
-app.use(express.static('public'));
+app.use(express.static('/index.html'));
 app.use(express.static('node_modules/p5/lib'));
 app.use(express.static('node_modules/p5/lib/addons'));
 
