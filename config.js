@@ -8,7 +8,4 @@ document.getElementById("copyright").innerHTML = "©" + config.COPYRIGHT;
 document.getElementById("footer").innerHTML = config.FOOTER;
 
 // Site Banner
-var img = document.createElement("img");
-img.src = "images/background-cropped.png";
-var src = document.getElementById("site-banner");
-src.appendChild(img);
+document.getElementById("myDiv").style.backgroundImage = "url('images/background-cropped.png')";
