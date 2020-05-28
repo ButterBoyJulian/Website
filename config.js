@@ -5,4 +5,4 @@ document.getElementById("copyright").innerHTML = "©" + COPYRIGHT;
 document.getElementById("footer").innerHTML = FOOTER;
 
 // Site Banner
-document.getElementById("site-banner").style.backgroundImage = "url('images/background-cropped.png')";
+document.getElementById("banner").style.backgroundImage = "url('https://julian-network.com/images/background-cropped.png')";
