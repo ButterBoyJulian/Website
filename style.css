@@ -94,7 +94,7 @@ body{
 	font-size: 80px;
 }
 #banner{
-	/*background-image:url(http://saas2.oxy.host/wp-content/uploads/sites/8/2017/10/Background@2x.png);*/
+	background-image:url('https://julian-network.com/images/background-cropped.png');
 	background-size: cover;
 	overflow: hidden;
 }
