@@ -95,6 +95,7 @@ body{
 }
 #banner{
 	background-image:url('https://julian-network.com/images/background-cropped.png');
+	zoom: 0.55;
 	background-size: cover;
 	overflow: hidden;
 }
