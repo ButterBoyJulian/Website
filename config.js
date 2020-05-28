@@ -8,4 +8,4 @@ document.getElementById("copyright").innerHTML = "©" + config.COPYRIGHT;
 document.getElementById("footer").innerHTML = config.FOOTER;
 
 // Site Banner
-document.getElementById("myDiv").style.backgroundImage = "url('images/background-cropped.png')";
+document.getElementById("site-banner").style.backgroundImage = "url('images/background-cropped.png')";
