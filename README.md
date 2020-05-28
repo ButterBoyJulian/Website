@@ -10,3 +10,4 @@ A Website for Julian's Network
   Prisions: Give Money
   ~~~
 - Copy 404.html into every folder
+- Add Banner on every page of site
