@@ -93,11 +93,11 @@ body{
 	font-style: normal;
 	font-size: 80px;
 }
-#banner{
+/*#banner{
 	background-image:url(http://saas2.oxy.host/wp-content/uploads/sites/8/2017/10/Background@2x.png);
 	background-size: cover;
 	overflow: hidden;
-}
+}*/
 
 /* Navigation Bar */ 
 div.sticky{
