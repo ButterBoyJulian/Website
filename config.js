@@ -1,11 +1,8 @@
-var config = {
-  "COPYRIGHT": "Julian Network 2020",
-  "FOOTER": "Hope you Enjoyed the Website!"
-}
+const { COPYRIGHT, FOOTER } = require('./config.json');
 
 // Bottom of Site
-document.getElementById("copyright").innerHTML = "©" + config.COPYRIGHT;
-document.getElementById("footer").innerHTML = config.FOOTER;
+document.getElementById("copyright").innerHTML = "©" + COPYRIGHT;
+document.getElementById("footer").innerHTML = FOOTER;
 
 // Site Banner
 document.getElementById("site-banner").style.backgroundImage = "url('images/background-cropped.png')";
