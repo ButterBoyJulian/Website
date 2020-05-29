@@ -41,17 +41,24 @@ p.thick{
 p.overline{
 	text-decoration: overline;
 }
-p.strikethrough{
-	text-decoration: line-through;
-}
-p.underline{
-	text-decoration: underline;
-}
 
 div.highlight-green{
 	padding: 5px;
 	background-color: #8de390;
 	border: 2px solid #4CAF50;
+}
+/* Format Text */
+.bold{
+	font-weight: bold;
+}
+.italicize{
+	font-style: italic;
+}
+.underline{
+	text-decoration: underline;
+}
+.strikethrough{
+	text-decoration: line-through;
 }
 
 /* All Pages */
