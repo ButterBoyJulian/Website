@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 
-const { PORT } = require('./config.json');
+const { port } = require('./config.json');
 
 var express = require('express');
 var app = express();
