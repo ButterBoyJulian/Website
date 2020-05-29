@@ -1,7 +1,4 @@
-var config = [
-  "COPYRIGHT": "Julian Network 2020",
-  "FOOTER": "Hope you Enjoyed the Website!"
-]
+var config = require('settings.json');
 
 // Bottom of Site
 document.getElementById("copyright").innerHTML = "©" + config.COPYRIGHT;
