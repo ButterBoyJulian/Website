@@ -1,5 +1,7 @@
 {
-  "PORT": "8080",
-  "COPYRIGHT": "Julian Network 2020",
-  "FOOTER": "Hope you Enjoyed the Website!"
+  "port": "8080",
+  "siteBottom": {
+    "footer": "Hope you Enjoyed the Website!",
+    "copyright": "Julian Network 2020"
+  }
 }
