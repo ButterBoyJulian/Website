@@ -1,6 +1,6 @@
 var config = [
   "copyright": "Julian Network 2020",
-  "footer": "Hope you Enjoyed the Website!",
+  "footer": "Hope you Enjoyed the Website!"
 ];
 
 // Bottom of Site
