@@ -11,3 +11,4 @@ A Website for Julian's Network
   ~~~
 - Copy 404.html into every folder
 - Add Banner on every page of site
+- Create a https://julian-network.com/staff/applications page
