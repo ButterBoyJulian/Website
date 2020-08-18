@@ -102,7 +102,7 @@ body{
 	font-size: 80px;
 }
 #banner{
-	background-image:url('https://julian-network.com/images/background-cropped.png');
+	background-image:url('https://julian-network.com/images/background.png');
 	zoom: 0.55;
 	background-size: cover;
 	overflow: hidden;
