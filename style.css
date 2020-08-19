@@ -107,7 +107,7 @@ body {
 	font-size: 120px;
 }
 #banner {
-	background-image:url('http://localhost:8037/background');
+	background-image:url('https://julian-network.com/images/background.png');
 	zoom: 0.40;
 	background-size: cover;
 	overflow: hidden;
