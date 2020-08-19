@@ -108,7 +108,7 @@ body {
 }
 #banner {
 	background-image:url('http://localhost:8037/background');
-	zoom: 0.55;
+	zoom: 0.40;
 	background-size: cover;
 	overflow: hidden;
 }
