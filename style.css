@@ -1,5 +1,5 @@
 /* Basic */
-.link{
+.link {
 	width: 60%;
 	padding: 10px;
 	font-size: 135%;
@@ -9,93 +9,93 @@
 	border: 3px solid green;
 	text-transform: uppercase;
 }
-.center{
+.center {
 	text-align: center;
 }
-#zero-margin{
+#zero-margin {
 	margin: 0px;
 }
 
-.error{
+.error {
 	color: red;
 	font-style: italic;
 }
 
-div.uppercase{
+div.uppercase {
 	text-transform: uppercase;
 }
-div.lowercase{
+div.lowercase {
 	text-transform: lowercase;
 }
 
-p.thick{
+p.thick {
 	font-weight: bold;
 	font-size: large;
 }
-.stack{
+.stack {
 	display: inline-block;
 	vertical-align: top;
 	margin: 0px;
 }
 
-p.overline{
+p.overline {
 	text-decoration: overline;
 }
 
-div.highlight-green{
+div.highlight-green {
 	padding: 5px;
 	background-color: #8de390;
 	border: 2px solid #4CAF50;
 }
 
 /* Format Text */
-.bold{
+.bold {
 	font-weight: bold;
 }
-.italicize{
+.italicize {
 	font-style: italic;
 }
-.underline{
+.underline {
 	text-decoration: underline;
 }
-.strikethrough{
+.strikethrough {
 	text-decoration: line-through;
 }
 
 /* All Pages */
-.white-box{
+.white-box {
 	background-color: #ffffff;
 	padding: 20px;
 	margin: 50px 140px;
 }
-.footer{
-	color: #6b6b6b;
+.footer {
+	color: #707070;
 	font-size: 18px;
 	background-color: #161616;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-	padding: 40px;
+	padding: 30px;
 }
-.site-footer{
-	color: #474747;
+.site-footer {
+	color: #4d4d4d;
 	font-size: 20px;
 	background-color: #0A0A0A;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-	padding: 20px;
+	padding: 15px;
 }
-body{
+body {
 	background-color: #efefef;
 }
 
 /* Fonts */
-.times-new-roman{
+.times-new-roman {
 	font-family: "Times New Roman", Times, serif;
 }
-.arial{
+.arial {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Homepage */ 
-#header{
+#header {
 	color: white;
 	text-align: center;
 	font-family: 'JelleeRoman';
@@ -103,44 +103,45 @@ body{
 	font-style: normal;
 	font-size: 120px;
 }
-#banner{
-	background-image:url('https://julian-network.com/images/background.png');
+#banner {
+	background-image:url('http://localhost:8037/background');
 	zoom: 0.55;
 	background-size: cover;
 	overflow: hidden;
 }
 
 /* Navigation Bar */ 
-div.sticky{
+div.sticky {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-	padding: 5px;
-	background-color: #202020;
-	border: 2px solid #1c1c1c;
-	font-family: "Times New Roman", Times, serif;
+	padding: 3px;
+	background-color: #2e2e2e;
+	border: 2px solid #2e2e2e;
+	font-family: 'Cabin', sans-serif;
 }
 
-ul{
+ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
 }
-li{
+li {
 	float: left;
 }
-li a{
+li a {
 	display: block;
 	color: white;
 	text-align: center;
-	padding: 14px 16px;
+	font-size: 18px;
+	padding: 13px 15px;
 	text-decoration: none;
 }
-li a:hover:not(.active){
-	background-color: #111;
+li a:hover:not(.active) {
+	background-color: #383838;
 }
-.active{
+.active {
 	background-color: #4CAF50;
 }
