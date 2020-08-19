@@ -68,8 +68,10 @@ div.highlight-green {
 	font-size: 16.5px;
 	color: #343434;
 	font-family: 'noto sans', sans-serif;
+	border-radius: 16px;
+	box-shadow: 2px 3px 6px #e3e3e3;
 	padding: 20px;
-	margin: 50px 140px;
+	margin: 40px 140px;
 }
 .footer {
 	color: #707070;
