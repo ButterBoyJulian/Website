@@ -65,6 +65,9 @@ div.highlight-green {
 /* All Pages */
 .white-box {
 	background-color: #ffffff;
+	font-size: 16.5px;
+	color: #343434;
+	font-family: 'noto sans', sans-serif;
 	padding: 20px;
 	margin: 50px 140px;
 }
