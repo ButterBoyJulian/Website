@@ -107,7 +107,7 @@ body {
 	font-size: 120px;
 }
 #banner {
-	background-image:url('https://julian-network.com/images/background.png');
+	background-image:url('http://localhost:8037/background');
 	zoom: 0.55;
 	background-size: cover;
 	overflow: hidden;
@@ -137,14 +137,21 @@ li {
 li a {
 	display: block;
 	color: white;
+	border-radius: 20px;
+	transition-duration: 0.4s;
 	text-align: center;
 	font-size: 18px;
 	padding: 13px 15px;
 	text-decoration: none;
 }
 li a:hover:not(.active) {
-	background-color: #383838;
+	background-color: #404040;
 }
 .active {
 	background-color: #4CAF50;
+	border-radius: 16px;
+	transition-duration: 0.6s;
+}
+.active:hover {
+	background-color: #5fc963;
 }
