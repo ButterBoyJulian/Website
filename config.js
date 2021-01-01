@@ -1,5 +1,5 @@
 var config = {
-  "copyright": "Julian Network 2020",
+  "copyright": "Julian Network 2021",
   "footer": "Hope you Enjoyed the Website!"
 };
 
