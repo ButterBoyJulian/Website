@@ -60,7 +60,25 @@ if (document.head.querySelectorAll("title").length == 0) {
 	document.head.appendChild(title);
 }
 
-
+// Custom styles
+function updateStyles() {
+	if (document.getElementById("customstyles")) { // Remove old custom styles
+		document.getElementById("customstyles").remove();
+	}
+	
+	var sheet = document.createElement("style");
+	sheet.id = "customstyles";
+	let styles = [];
+	
+	if (JSON.parse(localStorage.getItem("darkmode")) == true) {
+		styles.push("body { background-color: #101010; color: #343434; }");
+		styles.push(".container { background-color: #0c0c0c; color: #cbcbcb; box-shadow: 2px 3px 6px #121212; }");
+	}
+	
+	sheet.innerHTML = styles.join(" ");
+	document.head.appendChild(sheet);
+}
+updateStyles();
 
 // Site Banner
 // document.getElementById("banner").style.backgroundImage = "url('https://butterymc.com/images/background-cropped.png')";
