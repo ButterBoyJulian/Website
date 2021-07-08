@@ -12,9 +12,6 @@
 .center {
 	text-align: center;
 }
-#zero-margin {
-	margin: 0px;
-}
 
 .error {
 	color: red;
@@ -63,7 +60,12 @@ div.highlight-green {
 }
 
 /* All Pages */
-.white-box {
+body {
+	background-color: #efefef;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container {
 	background-color: #ffffff;
 	font-size: 16.5px;
 	color: #343434;
@@ -73,22 +75,31 @@ div.highlight-green {
 	padding: 20px;
 	margin: 40px 140px;
 }
-.footer {
+#footer {
+	position: relative;
+	width: 100%;
+}
+#footer[fixed=true] {
+	position: absolute;
+	bottom: 0;
+	display: inline-block;
+}
+#footer > [name=message] {
 	color: #707070;
 	font-size: 18px;
 	background-color: #161616;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-	padding: 30px;
+	padding: 45px;
+	margin: 0px;
 }
-.site-footer {
+#footer > [name=copyright] {
 	color: #545454;
 	font-size: 20px;
 	background-color: #0A0A0A;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
-	padding: 15px;
-}
-body {
-	background-color: #efefef;
+	text-align: center;
+	padding: 30px;
+	margin: 0px;
 }
 
 /* Fonts */
@@ -100,7 +111,7 @@ body {
 }
 
 /* Homepage */ 
-#header {
+#heading {
 	color: white;
 	text-align: center;
 	font-family: 'JelleeRoman';
@@ -116,13 +127,15 @@ body {
 }
 
 /* Navigation Bar */ 
-div.sticky {
+#header {
 	position: -webkit-sticky;
 	position: sticky;
 	top: 0;
-	padding: 3px;
 	background-color: #2e2e2e;
-	border: 2px solid #2e2e2e;
+	border-top: 2px solid #3e3e3e;
+	border-left: 2px solid #3e3e3e;
+	border-bottom: 2px solid #1e1e1e;
+	border-right: 2px solid #1e1e1e;
 	font-family: 'Cabin', sans-serif;
 }
 
@@ -139,22 +152,18 @@ li {
 li a {
 	display: block;
 	color: white;
-	border-radius: 20px;
-	transition-duration: 0.4s;
+	transition-duration: 0.3s;
 	text-align: center;
 	font-size: 18px;
 	margin: 0px 10px;
 	padding: 13px 15px;
 	text-decoration: none;
 }
-li a:hover:not(.active) {
-	background-color: #404040;
+li a:hover {
+	color: #6e9bf5;
 }
 .active {
-	background-color: #4CAF50;
+	color: #6ef582;
 	border-radius: 16px;
 	transition-duration: 0.6s;
-}
-.active:hover {
-	background-color: #5fc963;
 }

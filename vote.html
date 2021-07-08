@@ -1,72 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    
-    <style>
-      .votebutton {
-        color: #ffffff;
-        background: #5252A9;
-        margin: 0px 2px;
-        padding: 12px 17px;
-        border-radius: 8px;
-        border: none;
-        font-size: 14px;
-        font-family: 'Montserrat', sans-serif;
-        transition-duration: 0.4s;
-        font-weight: bold;
-        cursor: pointer;
-      }
-      .votebutton:hover {
-        background: #6363c2;
-      }
-      .votebutton:focus {
-        background: #50b650;
-      }
-    </style>
-    <link rel="stylesheet" href="style.css">
-    <title>Julian Network</title>
-    
-  </head>
-  <body id="zero-margin" class="arial">
-    
-    <div class="sticky">
-      <ul>
-        <li><a class="active" href="https://julian-network.com/">Home</a></li>
-      </ul>
-    </div>
-    
-    <div class="white-box">
-      <p class="thick">Server Voting Links:</p>
-      <div>
-        <button class="votebutton" onclick="window.open('https://minecraft-mp.com/server/186619/vote/')">Vote 1</button>
-        <button style="background: #a95265; cursor: not-allowed;" class="votebutton">Vote 2</button> <!-- https://www.craftservers.net/server/585-julian-network/ -->
-        <button class="votebutton" onclick="window.open('https://minecraft-server-list.com/server/428838/vote/')">Vote 3</button>
-        <button class="votebutton" onclick="window.open('https://topminecraftservers.org/vote/3920/')">Vote 4</button>
-        <button class="votebutton" onclick="window.open('https://minecraft-server.net/vote/JulianNetwork/')">Vote 5</button>
-        <button class="votebutton" onclick="window.open('https://minecraftservers.org/vote/574672')">Vote 6</button>
-        <button class="votebutton" onclick="window.open('https://minecraftservers.biz/servers/74286/')">Vote 7</button>
-        <button class="votebutton" onclick="window.open('https://topg.org/Minecraft/in-609684')">Vote 8</button>
-        <button class="votebutton" onclick="window.open('https://www.trackyserver.com/server/566786')">Vote 9</button>
-      </div>
-      <br>
-      <p class="thick">Voting Rewards:</p>
-      <p>Absolutly nothing at the moment.</p>
-      <br>
-      <p class="thick">Server Description:</p>
-      <p>The ButteryMC is the last best server in the world. In this server, there’s Enchanted Survival (This is an SMP with custom things added to vanilla). There’s also Minigames like Murder Mystery, 2048, Battle Ship, Tic Tac Toe, Skywars, and much more!</p>
-    </div>
+	<head>
+		<style>
+			.votebutton {
+				color: #ffffff;
+				background: #5252A9;
+				margin: 0px 2px;
+				padding: 12px 17px;
+				border-radius: 8px;
+				border: none;
+				font-size: 14px;
+				font-family: 'Montserrat', sans-serif;
+				transition-duration: 0.4s;
+				font-weight: bold;
+				cursor: pointer;
+			}
+			.votebutton:hover {
+				background: #6363c2;
+			}
+			.votebutton:focus {
+				background: #50b650;
+			}
+		</style>
+		<link rel="stylesheet" href="style.css">
+	</head>
 	
-    <div class="footer">
-      <p id="footer"></p>
-    </div>
-    
-    <div class="site-footer">
-      <div class="center">
-        <p id="copyright"></p>
-      </div>
-    </div>
-
-    <script src="./config.js"></script>
-    
-  </body>
+	<body>
+		<div id="header"></div>
+		
+		<div class="container">
+			<p class="thick">Server Voting Links:</p>
+			<div>
+				<button class="votebutton" title="minecraft-mp.com" onclick="window.open('https://minecraft-mp.com/server/186619/vote/')">Vote 1</button>
+				<button style="background: #a95265; cursor: not-allowed;" class="votebutton">Vote 2</button> <!-- https://www.craftservers.net/server/585-julian-network/ -->
+				<button class="votebutton" title="minecraft-server-list.com" onclick="window.open('https://minecraft-server-list.com/server/428838/vote/')">Vote 3</button>
+				<button class="votebutton" title="topminecraftservers.org" onclick="window.open('https://topminecraftservers.org/vote/3920/')">Vote 4</button>
+				<button class="votebutton" title="minecraft-server.net" onclick="window.open('https://minecraft-server.net/vote/JulianNetwork/')">Vote 5</button>
+				<button class="votebutton" title="minecraftservers.org" onclick="window.open('https://minecraftservers.org/vote/574672')">Vote 6</button>
+				<button class="votebutton" title="minecraftservers.biz" onclick="window.open('https://minecraftservers.biz/servers/74286/')">Vote 7</button>
+				<button class="votebutton" title="topg.org" onclick="window.open('https://topg.org/Minecraft/in-609684')">Vote 8</button>
+				<button class="votebutton" title="trackyserver.com" onclick="window.open('https://www.trackyserver.com/server/566786')">Vote 9</button>
+			</div>
+			<br>
+			<p class="thick">Voting Rewards:</p>
+			<p>Absolutly nothing at the moment.</p>
+			<br>
+			<p class="thick">Server Description:</p>
+			<p>The ButteryMC is the last best server in the world. In this server, there’s Enchanted Survival (This is an SMP with custom things added to vanilla). There’s also Minigames like Murder Mystery, 2048, Battle Ship, Tic Tac Toe, Skywars, and much more!</p>
+		</div>
+	
+		<div id="footer"></div>
+	
+		<script src="./config.js"></script>
+	</body>
 </html>
