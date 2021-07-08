@@ -63,4 +63,4 @@ if (document.head.querySelectorAll("title").length == 0) {
 
 
 // Site Banner
-document.getElementById("banner").style.backgroundImage = "url('https://butterymc.com/images/background-cropped.png')";
+// document.getElementById("banner").style.backgroundImage = "url('https://butterymc.com/images/background-cropped.png')";
