@@ -52,7 +52,7 @@ if (header !== null) { // Check if header exists
 	}
 	// Add header items
 	addHeaderItem("/", "Home");
-	addHeaderItem("/butterymc.buycraft.net", "Store");
+	addHeaderItem("/store", "Store");
 	addHeaderItem("/vote", "Vote");
 	addHeaderItem("/about", "About");
 }
