@@ -51,7 +51,7 @@ if (header !== null) { // Check if header exists
 		header.children["barlist"].appendChild(item);
 	}
 	// Add header items
-	addHeaderItem("https://julian-network.com/", "Home");
+	addHeaderItem("https://butterymc.com/", "Home");
 }
 
 if (document.head.querySelectorAll("title").length == 0) {
@@ -63,4 +63,4 @@ if (document.head.querySelectorAll("title").length == 0) {
 
 
 // Site Banner
-//document.getElementById("banner").style.backgroundImage = "url('https://julian-network.com/images/background-cropped.png')";
+document.getElementById("banner").style.backgroundImage = "url('https://butterymc.com/images/background-cropped.png')";
