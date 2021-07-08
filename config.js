@@ -44,7 +44,7 @@ if (header !== null) { // Check if header exists
 		var anchor = document.createElement("A");
 		anchor.innerHTML = name;
 		anchor.href = href;
-		if (window.location == href) {
+		if (window.location.pathname == href) {
 			anchor.classList.add("active");
 		}
 		item.appendChild(anchor);
