@@ -51,7 +51,10 @@ if (header !== null) { // Check if header exists
 		header.children["barlist"].appendChild(item);
 	}
 	// Add header items
-	addHeaderItem("https://butterymc.com/", "Home");
+	addHeaderItem("/", "Home");
+	addHeaderItem("/butterymc.buycraft.net", "Store");
+	addHeaderItem("/vote", "Vote");
+	addHeaderItem("/about", "About");
 }
 
 if (document.head.querySelectorAll("title").length == 0) {
